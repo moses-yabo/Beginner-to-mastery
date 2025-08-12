@@ -1,0 +1,12 @@
+const num = new Number(5.4227);
+x = num;
+x = x.toString();
+x = x.toString();
+x = num.toFixed(2);
+x = num.toPrecision(3);
+x = num.toExponential(2);
+x = num.toLocaleString('EN-za');
+x = num.valueOf();
+x = Number.MAX_VALUE;
+x = Number.MIN_VALUE;
+console.log(x);

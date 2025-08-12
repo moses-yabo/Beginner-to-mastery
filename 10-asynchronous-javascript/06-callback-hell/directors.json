@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Christopher Nolan",
+    "birthYear": 1970,
+    "nationality": "British-American"
+  },
+  { "name": "Frank Darabont", "birthYear": 1959, "nationality": "American" },
+  { "name": "Jordan Peele", "birthYear": 1979, "nationality": "American" },
+  { "name": "Hayao Miyazaki", "birthYear": 1941, "nationality": "Japanese" }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Inception",
+    "year": 2010,
+    "genre": ["Sci-Fi", "Thriller"],
+    "director": "Christopher Nolan",
+    "rating": 8.8
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genre": ["Drama"],
+    "director": "Frank Darabont",
+    "rating": 9.3
+  },
+  {
+    "title": "Get Out",
+    "year": 2017,
+    "genre": ["Horror", "Thriller"],
+    "director": "Jordan Peele",
+    "rating": 7.7
+  },
+  {
+    "title": "Spirited Away",
+    "year": 2001,
+    "genre": ["Animation", "Fantasy"],
+    "director": "Hayao Miyazaki",
+    "rating": 8.6
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": ["Action", "Crime"],
+    "director": "Christopher Nolan",
+    "rating": 9.0
+  }
+]

@@ -1,0 +1,16 @@
+[
+  { "name": "Leonardo DiCaprio", "birthYear": 1974, "nationality": "American" },
+  {
+    "name": "Joseph Gordon-Levitt",
+    "birthYear": 1981,
+    "nationality": "American"
+  },
+  { "name": "Elliot Page", "birthYear": 1987, "nationality": "Canadian" },
+  { "name": "Tim Robbins", "birthYear": 1958, "nationality": "American" },
+  { "name": "Morgan Freeman", "birthYear": 1937, "nationality": "American" },
+  { "name": "Daniel Kaluuya", "birthYear": 1989, "nationality": "British" },
+  { "name": "Allison Williams", "birthYear": 1988, "nationality": "American" },
+  { "name": "Christian Bale", "birthYear": 1974, "nationality": "British" },
+  { "name": "Heath Ledger", "birthYear": 1979, "nationality": "Australian" },
+  { "name": "Aaron Eckhart", "birthYear": 1968, "nationality": "American" }
+]
