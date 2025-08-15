@@ -18,5 +18,25 @@ rect1.color = 'pink';
 console.log(rect1.color);
 rect2.perimeter = () => 2 * (rect2.height + rect2.height);
 
-console.log(rect2.perimeter());
+//Delete property
 delete rect2.perimeter;
+// Check for property
+
+console.log(rect1.hasOwnProperty('color'));
+console.log(rect2.hasOwnProperty('color'));
+
+//Get Keys
+
+console.log(Object.keys(rect1));
+
+//Get Values
+console.log(Object.values(rect2));
+
+//Get entries
+console.log(Object.entries(rect2));
+// Loop Object entries
+for (let [key, values] of Object.entries(rect1)) {
+  if (typeof values !== 'function') {
+    console.log(`${values}`);
+  }
+}
