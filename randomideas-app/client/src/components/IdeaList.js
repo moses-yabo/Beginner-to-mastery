@@ -34,7 +34,8 @@ class IdeaList {
   async removeIdea(id) {
     try {
       const response = await IdeasApi.deleteIdea(id);
-      this.render();
+      this._ideas.filter((idea) => idea._id !== id);
+      this.getIdeas();
     } catch (error) {
       alert(error.response.data.error);
       console.log(error);
@@ -57,10 +58,14 @@ class IdeaList {
   render() {
     this._ideaListEl.innerHTML = this._ideas
       .map((idea) => {
+        const deleteButton =
+          idea.username === localStorage.getItem('username')
+            ? `<button class="delete"><i class="fas fa-times"></i></button>`
+            : '';
         const tagClass = this.getTagClass(idea.tag);
         return `
         <div class="card" data-id="${idea._id}">
-          <button class="delete"><i class="fas fa-times"></i></button>
+          ${deleteButton}
           <h3>
             ${idea.text}
           </h3>
